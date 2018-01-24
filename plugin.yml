@@ -1,0 +1,8 @@
+name: ePVP
+version: 1.0.0
+main: ePVP.plugin.EPVP
+author: 'Ld0'
+website: https://github.com/erudosan0524-JP
+commands:
+   ePVP:
+    description: Toggle on/off
