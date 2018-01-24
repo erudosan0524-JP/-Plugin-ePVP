@@ -38,7 +38,7 @@ public class EPVP extends JavaPlugin {
 				Loc.playSound(playerLoc, Sound.ENTITY_PLAYER_LEVELUP, 1, 1);
 
 				Loc.setPVP(true);
-				sender.sendMessage("§aPVPがonになりました");
+				sender.sendMessage("§a[ePVP]PVPがonになりました");
 
 				return true;
 
@@ -47,14 +47,14 @@ public class EPVP extends JavaPlugin {
 				Loc.playSound(playerLoc, Sound.ENTITY_PLAYER_LEVELUP, 1, 1);
 
 				Loc.setPVP(false);
-				sender.sendMessage("§aPVPがoffになりました");
+				sender.sendMessage("§a[ePVP]PVPがoffになりました");
 
 				return true;
 
 			}
 
 		}
-		sender.sendMessage("§c使い方： /epvp on/off");
+		sender.sendMessage("§c[ePVP]使い方： /epvp on/off");
 		return false;
 
 	}
